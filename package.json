@@ -12,6 +12,7 @@
     "lint": "eslint . --cache --fix -f table"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.4",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
     "@babel/preset-react": "^7.0.0",
@@ -30,7 +31,6 @@
     "jest-dom": "^3.2.2",
     "lint-staged": "^8.1.6",
     "prettier": "^1.17.0",
-    "react-test-render": "^1.1.1",
     "react-testing-library": "^7.0.0"
   },
   "dependencies": {
